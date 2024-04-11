@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeting Minutes</title>
+    <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+  </head>
+
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="attendance">Attendance</a></li>
+                <li><a href="agenda">Agenda</a></li>
+                <li><a href="old-business">Old Business</a></li>
+                <li><a href="new-business">New Business</a></li>
+                <li><a href="comments-questions-concerns">Comments, Questions, Concerns</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <hr />
+        <div>
+            <h1>Meeting Minutes Formatting Second Brainstorm</h1>
+            <p><b>Brainstorm</b> <br> <i>April 10th, 2024</i></p>
+        </div>
+        <hr />
+
+        <section>
+            <h2 id="attendance">Attendance</h2>
+            <h3>Attendees:</h3>
+            <ul>
+                <li>Alice</li>
+                <li>Bob</li>
+                <li>David</li>
+                <li>Felix</li>
+            </ul>
+            <h3>Absentees:</h3>
+            <ul>
+                <li>Catherine</li>
+                <li>Ethan</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="agenda">Agenda</h2>
+            <ol>
+                <li>Absentees</li>
+                <li>Suggestions from last meeting</li>
+                <li>Newly proposed ideas</li>
+                <li>Creating a template</li>
+                <li>Example template</li>
+                <li>Comments, questions, concerns</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2 id="old-business">Old Business</h2>
+            <p>
+                We addressed concerns about Ethan having yet to attend a single meeting. 
+                <strong>Effective immediately</strong>, Ethan was removed from the team. 
+                Felix was in danger of being removed as well, but no action was taken 
+                since he attended today's meeting. <br>
+                We also went over the meeting minutes formatting suggestions we failed to 
+                discuss in our last meeting due to running out of time. We will be 
+                implementing the suggestion to add a list of absentees in addition to the 
+                list of attendees.
+            </p>
+        </section>
+
+        <section>
+            <h2 id="new-business">New Business</h2>
+            <p>
+                A few new formatting ideas were suggested. Bob suggested a meeting summary, 
+                which we will be implementing. Felix proposed that we remove the attendance 
+                section, which of course was promptly shut down. David proposed that we 
+                start recording each meeting and including the recording in the meeting 
+                minutes, which we will also be implementing. <br>
+                We also discussed how we would go about creating a more polished, stylized 
+                template for our meeting minutes so that it would look nicer and more 
+                organized. We ultimately decided that we won't be creating anything like 
+                that at the moment, since the company isn't allowing us to use CSS or 
+                JavaScript until future weeks. <br>
+            </p>
+            <p>An example meeting minutes template Bob presented as what we should strive for: </p>
+            <img src="media/template.png" width="400" alt="Stylized meeting minutes template"/>
+            <p>Bob presented this example because it's organized, simple, and effective.</p>
+        </section>
+
+        <section>
+            <h2 id="comments-questions-concerns">Comments, Questions, Concerns</h2>
+            <p>
+                Felix expressed his concern that our attendance policy was too strict. We 
+                will consider his concern in future meetings.
+            </p>
+        </section>
+        <hr />
+    </main>
+
+    <footer>
+        <details>
+            <summary>Meeting Summary</summary>
+            Ethan was removed from the team due to his lack of attendance. Various meeting 
+            minutes formatting ideas were agreed upon to be implemented. For now, we will 
+            hold off from creating a more stylized template for our meeting minutes. We 
+            will also reconsider our attendance policy in the future at Felix's request.
+        </details>
+
+        <h3>Video recording of the meeting:</h3>
+        <video controls width="500"><source src="media/meeting.mp4" type="video/mp4" /></video>
+        <h3>Audio recording of the meeting:</h3>
+        <audio controls src="media/meeting.mp4"></audio>
+
+        <p>Minutes submitted by: <span><i>Bob</i></span> <br> Minutes approved by: <span><i>Alice</i></span></p>
+
+        <hr />
+        <h3>After-Meeting Survey:</h3>
+        <form>
+            <fieldset>
+                <label>Enter your full name:</label>
+                <input type="text" />
+            </fieldset>
+
+            <fieldset>
+                <label>Enter the date of the meeting:</label>
+                <input type="date"/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Select the team members that were kind and respectful during the meeting:</legend>
+                <input type="checkbox" id="a" />
+                <label for="a">Alice</label> <br>
+                <input type="checkbox" id="b" />
+                <label for="b">Bob</label> <br>
+                <input type="checkbox" id="c" />
+                <label for="c">Catherine</label> <br>
+                <input type="checkbox" id="d" />
+                <label for="d">David</label> <br>
+                <input type="checkbox" id="f" />
+                <label for="f">Felix</label> <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Rate the meeting quality from 1 (<em>terrible</em>) to 5 (<em>amazing</em>):</legend>
+                <input type="radio" id="1" />
+                <label for="1">1</label> <br>
+                <input type="radio" id="2" />
+                <label for="2">2</label> <br>
+                <input type="radio" id="3" />
+                <label for="3">3</label> <br>
+                <input type="radio" id="4" />
+                <label for="4">4</label> <br>
+                <input type="radio" id="5" />
+                <label for="5">5</label> <br>
+            </fieldset>
+            
+            <fieldset>
+                <label>Input any concerns regarding the meeting:</label> <br>
+                <textarea></textarea>
+            </fieldset>
+
+            <fieldset>
+                <label>(<em>Online only</em>) Choose the device you used to attend the meeting:</label>
+                <select>
+                    <option value="">--Please choose an option--</option>
+                    <option>Laptop</option>
+                    <option>Desktop</option>
+                    <option>Tablet</option>
+                    <option>Phone</option>
+                    <option>Other</option>
+                    <option>Not online</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label>(<em>Online only</em>) Choose the browser you use on your device:</label>
+                <input list="browsers" />
+                <datalist id="browsers">
+                    <option value="Chrome"></option>
+                    <option value="Firefox"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+                    <option value="Edge"></option>
+                    <option value="Other"></option>
+                    <option value="Not online"></option>
+                </datalist>
+            </fieldset>
+            <button>Press to submit</button>
+        </form>
+    </footer>
+  </body>
+</html>
