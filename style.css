@@ -1,0 +1,7 @@
+/* Set div font to Montserrat */
+div {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
