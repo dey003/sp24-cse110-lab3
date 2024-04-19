@@ -6,6 +6,21 @@
     <title>Meeting Minutes</title>
     <link rel="icon" type="image/x-icon" href="media/favicon.ico">
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            color: color(display-p3 0.2 0.4 0.2) /* Set page text color to dark green */
+        }
+
+        a[href="attendance"] {
+            color: color-mix(in srgb, #d034eb, white) /* Set attendance link color to light purple */
+        }
+
+        #attendance {
+            /* Set color of the attendance header */
+            color: rgb(214, 45, 200);
+        }
+    </style>
   </head>
 
   <body>
@@ -31,7 +46,7 @@
 
         <section>
             <h2 id="attendance">Attendance</h2>
-            <h3>Attendees:</h3>
+            <h3 style="background-color: hsla(199, 93%, 56%, 0.533)">Attendees:</h3> <!--Set the background color-->
             <ul>
                 <li>Alice</li>
                 <li>Bob</li>
