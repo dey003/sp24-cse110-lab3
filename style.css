@@ -1,7 +1,13 @@
-/* Set div font to Montserrat */
+:root {
+    --bg-color: #6BB8FF
+}
+
 div {
+    /* Set div font to Montserrat */
     font-family: "Montserrat", sans-serif; /* Fallback font is sans-serif */
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
+
+    background-color: var(--bg-color, blue); /* Background color variable with a fallback */
 }
