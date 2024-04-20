@@ -1,11 +1,11 @@
 :root {
-    --bg-color: #6BB8FF
+    --bg-color: #6BB8FF;
 }
 
 /* Set position of section links*/
 a {
     position: relative;
-    left: 40px
+    left: 40px;
 }
 
 div {
@@ -17,17 +17,32 @@ div {
 
     background-color: var(--bg-color, blue); /* Background color variable with a fallback */
 
-    position: static /* Set position of div */
+    position: static; /* Set position of div */
 }
 
 /* Set font size of page subtitle */
 div p {
-    font-size: 15pt
+    font-size: 15pt;
+}
+
+/* Set flexbox of attendance section */
+.take-attendance {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2px;
+}
+
+.new-topics {
+    display: grid;
+    row-gap: 5px;
+    justify-items: left;
+    align-items: center;
 }
 
 /* Set font size of summary title */
 summary {
-    font-size: 1.5em
+    font-size: 1.5em;
 }
 
 /* Set minimum width of paragraph right after image */
@@ -38,32 +53,32 @@ img + p {
 /* Set the "submit" button's dimensions */
 button.submit {
     width: 150px;
-    height: 30px
+    height: 30px;
 }
 
 /* Set the margin of the items of unordered lists */
 ul > li {
-    margin: auto
+    margin: auto;
 }
 
 /* Style text in and after the "details" section */
 details ~ h3 {
     text-decoration: underline;
-    text-align: start
+    text-align: start;
 }
 
 /* Adjust font size and video/image dimensions based on screen/viewport size */
 @media (max-width: 1100px) {
     * {
-        font-size: calc(1.5vw + 1.5vh)
+        font-size: calc(1.5vw + 1.5vh);
     }
 
     p {
-        margin-right: 10px
+        margin-right: 10px;
     }
 
     video, img {
-        width: calc(80vw)
+        width: calc(80vw);
     }
 }
 
@@ -75,12 +90,12 @@ a:hover, .submit:hover {
 
 /* Added shadow while pressing links and "submit" button */
 a:active, .submit:active {
-    box-shadow: 1mm 1mm 1mm goldenrod
+    box-shadow: 1mm 1mm 1mm goldenrod;
 }
 
 /* Edit display of legends of the survey which are followed by inputs */
 legend:has(+ input) {
-    display: block
+    display: block;
 }
 
 /* Configure survey container */
@@ -103,6 +118,6 @@ fieldset {
     border-radius: 10px;
 
     label {
-        display: inline-block /* Edit display of labels in the survey*/
+        display: inline-block; /* Edit display of labels in the survey*/
     }
 }
