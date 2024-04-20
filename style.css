@@ -69,3 +69,14 @@ a:hover, .submit:hover {
 a:active, .submit:active {
     box-shadow: 1mm 1mm 1mm goldenrod
 }
+
+/* Edit display of legends of the survey which are followed by inputs */
+legend:has(+ input) {
+    display: block
+}
+
+fieldset {
+    label {
+        display: inline-block /* Edit display of labels in the survey*/
+    }
+}
