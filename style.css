@@ -32,3 +32,8 @@ a:hover, .submit:hover {
     background-color: gold;
     transition: background-color 0.5s;
 }
+
+/* Added shadow while pressing links and "submit" button */
+a:active, .submit:active {
+    box-shadow: 1mm 1mm 1mm goldenrod
+}
