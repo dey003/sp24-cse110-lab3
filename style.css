@@ -26,3 +26,9 @@ div {
         width: calc(80vw)
     }
 }
+
+/* Added background color while hovering over links and "submit" button */
+a:hover, .submit:hover {
+    background-color: gold;
+    transition: background-color 0.5s;
+}
