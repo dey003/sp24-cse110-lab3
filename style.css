@@ -12,6 +12,16 @@ div {
     background-color: var(--bg-color, blue); /* Background color variable with a fallback */
 }
 
+/* Set font size of page subtitle */
+div p {
+    font-size: 15pt
+}
+
+/* Set font size of summary title */
+summary {
+    font-size: 1.5em
+}
+
 /* Adjust font size and video/image dimensions based on screen/viewport size */
 @media (max-width: 1100px) {
     * {
