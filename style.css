@@ -75,7 +75,25 @@ legend:has(+ input) {
     display: block
 }
 
+/* Configure survey container */
 fieldset {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 5px 5px 5px 5px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding: 20px 20px 20px 10px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: pink;
+    border-radius: 10px;
+
     label {
         display: inline-block /* Edit display of labels in the survey*/
     }
