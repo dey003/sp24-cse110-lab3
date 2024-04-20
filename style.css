@@ -22,6 +22,23 @@ summary {
     font-size: 1.5em
 }
 
+/* Set minimum width of paragraph right after image */
+img + p {
+    min-width: 1px;
+}
+
+/* Set the "submit" button's dimensions */
+button.submit {
+    width: 150px;
+    height: 30px
+}
+
+/* Set the margin of the items of unordered lists */
+ul > li {
+    margin: auto
+}
+
+/* Style text in and after the "details" section */
 details ~ h3 {
     text-decoration: underline;
     text-align: start
