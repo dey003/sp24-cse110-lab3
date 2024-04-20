@@ -11,7 +11,6 @@ a {
 div {
     /* Set div font to Montserrat */
     font-family: "Montserrat", sans-serif; /* Fallback font is sans-serif */
-    font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
 
