@@ -79,6 +79,16 @@ details ~ h3 {
     video, img {
         width: calc(80vw);
     }
+
+    button.submit {
+        width: 300px;
+        height: 50px;
+    }
+
+    input[type=radio], input[type=checkbox] {
+        height: 25px;
+        width: 25px;
+    }
 }
 
 /* Added background color while hovering over links and "submit" button */
